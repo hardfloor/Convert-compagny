@@ -79,13 +79,14 @@ header::before {
     right: 0;
     bottom: 0;
     display: block;
-    background: url(ressources/workplace-1245776_1920.png);
+    background: url(ressources/double-expo.jpg);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 100vh;
     filter: grayscale(0.7);
+    background-position: center;
 }
 
 
@@ -99,6 +100,14 @@ header .navbar {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    position: relative;
+}
+
+.navbar img{
+    position: absolute;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
@@ -123,6 +132,15 @@ header .underline {
 }
 
 
+header .underline-2 {
+    width: 50px;
+    height: 5px;
+    background: #50E3C2;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+
 .navbar i {
     color: #50E3C2;
 }
@@ -131,6 +149,13 @@ header .underline {
 .navbar a {
     text-decoration: none;
     color: #50E3C2;
+    text-align: left;
+}
+
+.navbar a span{
+    font-weight: bold;
+    font-size: 3rem;
+
 }
 
 .socialnetworks {
@@ -300,7 +325,7 @@ input[type="submit"] {
 
 .development {
     background-image: url(ressources/Sans-titre-3.png);
-    filter: grayscale(0.7);
+    
     margin-right: 2%;
 }
 
@@ -489,7 +514,7 @@ h1 {
 
 
 
-
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
 
 
 footer {
@@ -645,7 +670,7 @@ footer a {
 @media screen and (max-width:414px) {
 
     header h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         padding-bottom: 50px;
     }
 
@@ -655,7 +680,22 @@ footer a {
         text-align: center;
         margin-top: 30px;
     }
-
+.call-1{
+    position: absolute;
+    top:150px
+}
+.call-1 a span{
+    font-size: 1.5rem;
+}
+.call-2{
+    position: absolute;
+    top:150px;
+    right: 30px;
+   
+}
+.call-2 .underline-2{
+    margin-left: 0;
+}
     .section1 .contact {
 
         width: 70%;

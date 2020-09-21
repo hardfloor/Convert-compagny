@@ -34,15 +34,22 @@
     </div>
     <section class="main-section">
         <header>
-            <h1>Votre réussite <br>démarre ici</h1>
+            <h1>Votre réussite <br>démarre<br> ici!</h1>
             <div class="navbar">
-                <div class="call">
-                    <a href="#">Appelez-nous</a>
-                    <a href="#">01.23.45.67.89</a>
+                <div class="call call-1">
+                    <a href="#"><span>Convert Compagny</span>
+                        </a>
+                    <a href="#">L'experience<br>au service de votre<br>  nouvelle carrière</a>
                     <div class="underline"></div>
                 </div>
-                <a href="#"><i class="fas fa-sitemap"></i></a>
-                <a href="#">Accueil</a>
+                <div class="bck-img">
+                <img src="ressources/logosite.png"alt="#">
+            </div>
+                <div class="call call-2">
+                    <a href="#">Appelez-nous</a>
+                    <a href="#">01.23.45.67.89</a>
+                    <div class="underline-2"></div>
+                </div>
             </div>
 
         </header>
@@ -85,26 +92,18 @@
                 <div class="cards-services">
 
                     <div class="consulting">
-                        <h3>Consultation<br> individuelle </h3>
-                        <p>Paragraphe. Cliquez ici pour ajouter <br>votre propre texte. Utilisez cet espace<br> pour
-                            relater votre
-                            parcours et présenter <br>votre activité à vos visiteurs</p>
+                        <h3>Consultation</h3>
+                        <p>Nous faisons ensemble<br> un point individuel de votre parcours!</p>
                     </div>
 
                     <div class="strategy">
-                        <h3>Stratégies de<br>
-                            croissance d'entreprise </h3>
-                        <p>Paragraphe. Cliquez ici pour ajouter <br>votre propre texte. Utilisez cet espace<br> pour
-                            relater votre
-                            parcours et présenter <br>votre activité à vos visiteurs</p>
+                        <h3>Stratégies </h3>
+                        <p>Nous établissons la stratégie<br> qui vous convient pour votre avenir</p>
                     </div>
 
                     <div class="development">
-                        <h3>Développement<br>
-                            professionnel </h3>
-                        <p>Paragraphe. Cliquez ici pour ajouter <br>votre propre texte. Utilisez cet espace<br> pour
-                            relater votre
-                            parcours et présenter <br>votre activité à vos visiteurs</p>
+                        <h3>Développement </h3>
+                        <p>Nous vous accompagnons<br> pour vous faire grandir professionnellemnt </p>
                     </div>
                 </div>
             </section>
@@ -120,9 +119,8 @@
 
                 <div class="review1">
                     <h3>René Laroche</h3>
-                    <h4>VP Marketing</h4>
-                    <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur "Modifier Texte" ou
-                        double-cliquez ici pour ajouter votre contenu et personnaliser les polices</p>
+                    <h4>Ancien Chef d'agence de voyage</h4>
+                    <p>"J' étais un peu perdu mais après plusieurs mois de chômage on a su me mo</p>
                     <i class="fab fa-acquisitions-incorporated"></i>
                 </div>
                 <div class="review1">
@@ -210,7 +208,7 @@
 
             <footer>
                 <div class="subfooter">
-                    <div class="logo"><a href="#"><i class="fas fa-sitemap"></i></a></div>
+                    <div class="logo"><a href="#"><img src="./ressources/foot.png" alt="le logo du site"></i></a></div>
                     <div class="about">
                         <div class="adress">
 
@@ -221,7 +219,7 @@
 
                             <p>CONTACT</p>
                             <p>Tel: 01 23 45 67 89<br>
-                                <a href="mailto:info@monsite.fr">Email:</a></p>
+                                <a href="mailto:info@monsite.fr">Email: info@monsite.fr</a></p>
                         </div>
                         <div class="follow-us">
 
@@ -235,7 +233,7 @@
                     </div>
                 </div>
                 <div class="reference">
-                    <p>© 2023 par Brun Consultants. Créé avec <a href="#">Wix.com</a></p>
+                    <p class="text-white">Copyright &copy;<span id="year"></span> <a href="#">injected with WebMDesign</a>
                 </div>
 
 
@@ -245,6 +243,10 @@
         </section>
     </section>
     <script src="script.js"></script>
+<script>
+    // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+</script>
 </body>
 
 </html>
